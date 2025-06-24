@@ -1,0 +1,38 @@
+# General
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.DS_Store
+*.swp
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Rider/JetBrains
+.idea/
+
+# Env & secrets
+.env
+appsettings.*.json
+
+# SQLite or other local DBs
+*.db
+*.sqlite
+*.mdf
+
+# WPF designer files
+*.g.i.cs
+*.g.cs
+
+# ASP.NET Core specific
+wwwroot/
+node_modules/
