@@ -16,7 +16,7 @@ builder.Configuration.AddEnvironmentVariables();
 
 var connectionString = Environment.GetEnvironmentVariable("SQLITE_DB");
 var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET");
-Console.WriteLine($"🔐 JWT_SECRET: {jwtSecret}");
+
 if (string.IsNullOrWhiteSpace(connectionString) || string.IsNullOrWhiteSpace(jwtSecret))
 {
     throw new Exception("Faltan variables de entorno: SQLITE_DB o JWT_SECRET");
