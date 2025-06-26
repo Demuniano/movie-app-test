@@ -5,6 +5,10 @@ using MovieApp.WPF.Helpers;
 
 namespace MovieApp.WPF
 {
+<<<<<<< feat/navigation
+
+=======
+>>>>>>> main
     public partial class MainWindow : Window
     {
         public MainWindow()
