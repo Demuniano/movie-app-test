@@ -1,4 +1,4 @@
-// Services/JwtService.cs
+﻿// Services/JwtService.cs
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -13,7 +13,6 @@ namespace MovieApp.API.Services
         public JwtService(IConfiguration configuration)
         {
             _secret = configuration["JWT_SECRET"];
-            Console.WriteLine($"[JwtService] JWT_SECRET in constructor: {_secret}");
 
             if (string.IsNullOrWhiteSpace(_secret))
             {
