@@ -5,6 +5,7 @@ using MovieApp.WPF.Helpers;
 
 namespace MovieApp.WPF
 {
+
     public partial class MainWindow : Window
     {
         public MainWindow()
